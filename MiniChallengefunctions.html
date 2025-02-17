@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Challange Functions</title>
+</head>
+<body>
+    <h1>Mini Challange Functions</h1>
+    <script>
+        function sayHello(name){
+            return `Merhaba, ${name}!`;
+        }
+        console.log(sayHello("Alice")); // Çıktı: Merhaba, Alice!
+
+        function multiply(a,b){ //Function Expression
+            return a*b;
+        }
+        console.log(multiply(5,3)); // çıktı 15
+
+        const divide = (a,b) => a/b; //Arrow Functions
+        console.log(divide(10,2)); // çıktı 5
+
+        function greetUser(name = "Misafir", surname){//Varsayılan Parametreler
+            return "Hoşgeldin, "+ name + " " + surname + "!";
+        }
+
+        console.log(greetUser("John", "Doe"));// çıktı: Hoşgeldin, Jogn Doe!
+
+
+
+    </script>
+</body>
+</html>
